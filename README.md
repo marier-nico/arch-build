@@ -1,3 +1,6 @@
+![docker-build](https://img.shields.io/docker/cloud/automated/mariernico/arch-build)
+![docker-build-status](https://img.shields.io/docker/cloud/build/mariernico/arch-build)
+
 What is this?
 -------------
 
