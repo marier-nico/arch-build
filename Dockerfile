@@ -1,6 +1,6 @@
 FROM archlinux/base:latest
 
-RUN curl -o /etc/pacman.d/mirrorlist "https://www.archlinux.org/mirrorlist/?country=CA&country=GB&country=US&protocol=https&ip_version=4&use_mirror_status=on" \
+RUN curl -o /etc/pacman.d/mirrorlist "https://www.archlinux.org/mirrorlist/?country=all&protocol=https&ip_version=4&use_mirror_status=on" \
         && sed -i 's/^#//' /etc/pacman.d/mirrorlist \
         && pacman-key --refresh-keys \
         && pacman -Syu --noconfirm base-devel multilib-devel namcap git
