@@ -48,7 +48,7 @@ SigLevel = Optional TrustAll
 Server = https://aur.nmarier.com/packages/$arch
 ```
 
-2. Run the following command
+2. Run the following command (to in stall `st`, for example)
 ```
 $ sudo pacman -Sy st
 ```
